@@ -10,7 +10,7 @@ model = SimpleCNN(num_classes=2)
 model.load_state_dict(torch.load('trained_model.pth'))
 model.eval()
 
-# Пример тестового видеоролика (замените на свои данные)
+# Пример тестового видеоролика
 video_path = '1_1.mp4'
 cap = cv2.VideoCapture(video_path)
 
